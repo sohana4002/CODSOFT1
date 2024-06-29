@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.top-bar {
+    background: linear-gradient(90deg, #090979 35%, #00d4ff 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 12px;
+}
+
+.top-bar .contact-info p {
+    margin: 0 5px;
+}
+
+.top-bar .social-media a img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+header {
+    background: #fff;
+    color: #000;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://thesavvyredpen.com/wp-content/uploads/2021/03/Diversity-1024x611.jpg') no-repeat center center/cover;
+    color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero-text {
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    background: linear-gradient(90deg, #090979 35%, #00d4ff 100%);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.about {
+    background: linear-gradient(90deg, #090979 35%, #00d4ff 100%);
+    color: #fff;
+    margin: 0px auto;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-item {
+    flex: 1;
+    background: #000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.features {
+    background: url('https://c8.alamy.com/comp/HNFJG1/world-map-background-fade-style-HNFJG1.jpg') no-repeat center center/cover;
+    margin: 0px auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.feature-item {
+    background: #060c45;
+    color:#fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
